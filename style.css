@@ -1,5 +1,54 @@
+/* Universal & Primary  */
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
+    font-family: "Merriweather", serif;
+}
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.primary-p{
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+}
+.primary-btn{
+    background-color: #F00;
+    border-radius: 8px;
+    padding: 16px 32px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+
+/* Banner Section */
+.banner{
+    background-image: url('./resources/Banner\ Image.png');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: inset 0 0 0 300px rgba(0,0,0,0.5);
+}
+.banner-overlay{
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    /* box-shadow: inset 0 0 0 0 rgba(0,0,0,0.5); */
+}
+.banner-overlay> h6{
+    text-align: center;
+    font-size: 32px;
+}
+.banner-overlay> h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900px;
 }
