@@ -342,6 +342,9 @@ span{
   border: none;
   width: 440px;
 }
+.email:focus{
+  outline: 0;
+}
 .subscribe{
   padding: 22px;
   border: none;
