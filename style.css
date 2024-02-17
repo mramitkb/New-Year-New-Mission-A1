@@ -10,8 +10,14 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
-.primary-p {
+.party-p {
   color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  margin-top: 24px;
+  width: 90%;
+}
+.primary-p {
+  color: rgba(7, 2, 17, 0.60);
   font-size: 16px;
   margin-top: 24px;
   width: 90%;
@@ -151,3 +157,46 @@ span{
   margin-top: 15px;
 }
 /* Offer Section */
+.offer-container{
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.offer-details1{
+  width: calc(100%/3);
+  padding-right: 80px;
+}
+.offer-p{
+  color: #F00;
+  font-size: 20px;
+  font-weight: bold;
+}
+.offer-title{
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 10px 0px;
+}
+.offer-img{
+  width: calc(100%/3);
+}
+.offer-photo{
+  width: 100%;
+  padding: 20px;
+  border: 12px solid red;
+  border-radius: 50%;
+}
+.offer-details2{
+  width: calc(100%/3);
+  padding-left: 100px;
+}
+.offer-title2{
+  color: #F00;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.details2-img{
+  margin-top: 15px;
+}
+/* Holiday Section */
