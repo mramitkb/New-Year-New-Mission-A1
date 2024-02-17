@@ -200,3 +200,55 @@ span{
   margin-top: 15px;
 }
 /* Holiday Section */
+.holiday-container{
+  margin-top: 120px;
+  text-align: center;
+}
+.what{
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.holiday-sale{
+  font-size: 72px;
+  font-weight: bolder;
+}
+.holidays{
+  color: #F00;
+}
+/* Discount Section */
+.discount-container{
+  margin-top: 120px;
+  background-image: url('./resources/Rectangle\ 2.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.discount-img1{
+  width: 50%;
+}
+.img1{
+  width: 100%;
+}
+.discount-img2{
+  width: 50%;
+  position: relative;
+}
+.img2{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 59%;
+}
+.group-44{
+  position: absolute;
+  left: 70%;
+  top: 20%;
+}
+.fifty{
+  height: 200px;
+}
