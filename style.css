@@ -292,6 +292,25 @@ span{
 .mailbox{
   margin-top: 48px;
 }
+.email{
+  padding: 25px;
+  border-radius: 50px 0px 0px 50px;
+  border: none;
+  width: 440px;
+}
+.subscribe{
+  padding: 22px;
+  border: none;
+  background-color: #F00;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 0px 50px 50px 0px;
+}
+.subscribe:hover{
+  cursor: pointer;
+  color: black;
+}
 /* Footer Section */
 footer{
   background-color: black;
@@ -322,7 +341,7 @@ footer{
 }
 .social> img{
   height: 64px;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 .social> img:hover{
   cursor: pointer;
