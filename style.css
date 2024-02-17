@@ -273,6 +273,15 @@ span{
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+/* .portfolio-grid> img:hover{
+  cursor: pointer;
+  position: relative;
+}
+.add{
+  position: absolute;
+  background-color: #F00;
+  padding: 5px;
+} */
 /* Newsletter Section */
 .newsletter-container{
   margin-top: 120px;
