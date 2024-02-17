@@ -273,15 +273,39 @@ span{
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-/* .portfolio-grid> img:hover{
-  cursor: pointer;
+.grid-image{
   position: relative;
+  width: 100%;
+}
+.grid-img{
+  display: block;
+  width: 100%;
+}
+.cart-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+.cart-overlay:hover{
+  opacity: 1;
 }
 .add{
-  position: absolute;
-  background-color: #F00;
-  padding: 5px;
-} */
+  background-color: rgb(27, 88, 25);
+  padding: 15px 10px;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
 /* Newsletter Section */
 .newsletter-container{
   margin-top: 120px;
